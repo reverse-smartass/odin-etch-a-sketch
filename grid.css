@@ -1,0 +1,35 @@
+#grid{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    
+    flex-direction: column;
+    border: none;
+}
+
+#buttons{
+    display: flex;
+    width: 100vh;
+    justify-content: space-around;
+
+}
+
+.row{
+    width: 100vh;
+    display: flex;
+}
+
+.case{
+    outline: 1px solid black;
+}
+
